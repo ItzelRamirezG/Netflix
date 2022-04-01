@@ -1,0 +1,90 @@
+body{
+    background: black;
+}
+h2{
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.padre{
+    width: 90%;
+    margin: auto;
+}
+header{
+    padding: 30px 0;
+}
+header .padre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0%;
+}
+header .netflix{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    color: red;
+}
+header nav a{
+    color: rgb(161, 161, 167);
+    text-decoration: none;
+    margin-right: 20px;
+}
+header nav a:hover{
+    color: azure;
+}
+.Menu {
+    font-size: 16px;
+    min-height: 650px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100% ), url(cv.png);
+    background-position: center center;    
+    background-size: cover;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+}
+.Menu .padre{
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.Menu .padre{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Menu .titulo{
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.Menu .Resumen{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+.Menu .boton{
+    background: rgb(44, 44, 44);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 15px;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 15px;
+}
+.Menu .boton:hover{
+    background: azure;
+    color: black;
+}
+.Menu .Ingresar {
+    font-size: 5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form1 :placeholder-shown{
+    background: rgb(196, 193, 197);
+}
+.form2 :placeholder-shown{
+    background: rgb(215, 209, 216);
+}
